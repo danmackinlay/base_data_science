@@ -1,11 +1,5 @@
 #!/usr/bin/env python3
 
-# please make sure you do this:
-#
-#    git clone git@gitlab.com:alanblair/chroma.git
-#    cd chroma
-#    tools/run-after-git-clone
-#
 
 import sys
 if sys.hexversion < 0x03060000: sys.exit("!!! Please re-run this script with python-3.6 or higher")

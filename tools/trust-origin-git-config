@@ -47,9 +47,9 @@ def write_config():
     cmd = "tools/nbstripout" if not is_windows else r"python tools\\\\nbstripout"
     with open(".gitconfig", 'w') as f:
         f.write(f"""# You need to enable this configuration once after checking out the repo
-# for the first time (assuming you checked it out into chroma/ dir):
+# for the first time (assuming you checked it out into data_science_paper_base/ dir):
 #
-# cd chroma
+# cd data_science_paper_base
 # git config --local include.path ../.gitconfig
 #
 # If you need to disable this instrumentation do:
