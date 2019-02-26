@@ -1,0 +1,29 @@
+{
+    "mdmath.macros": {
+        "\\var": "\\operatorname{Var}",
+        "\\dd": "\\mathrm{d}",
+        "\\pd": "\\partial",
+        "\\bb": "\\mathbb{#1}",
+        "\\vv": "\\boldsymbol{#1}",
+        "\\mm": "\\boldsymbol{#1}",
+        "\\mmm": "\\mathrm{#1}",
+        "\\cc": "\\mathcal{#1}",
+        "\\ff": "\\mathfrak{#1}",
+        "\\oo": "\\operatorname{#1}",
+        "\\gvn": "\\mid",
+        "\\II": "\\mathbb{I}\\{#1\\}",
+        "\\inner": "\\langle #1,#2\\rangle",
+        "\\Inner": "\\left\\langle #1,#2\\right\\rangle",
+        "\\finner": "\\langle #1,#2;#3\\rangle",
+        "\\FInner": "\\left\\langle #1,#2;#3\\right\\rangle",
+        "\\dinner": "[ #1,#2]",
+        "\\DInner": "\\left[ #1,#2\\right]",
+        "\\norm": "\\| #1\\|",
+        "\\Norm": "\\left\\| #1\\right\\|",
+        "\\fnorm": "\\| #1;#2\\|",
+        "\\FNorm": "\\left\\| #1;#2\\right\\|",
+        "\\argmax": "\\mathop{\\mathrm{argmax}}",
+        "\\argmin": "\\mathop{\\mathrm{argmin}}",
+        "\\omp": "\\mathop{\\mathrm{OMP}}"
+    }
+}
