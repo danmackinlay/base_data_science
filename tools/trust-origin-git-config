@@ -20,6 +20,7 @@
 import sys
 if sys.hexversion < 0x03060000: sys.exit("!!! Please re-run this script with python-3.6 or higher")
 
+
 import os, argparse, subprocess
 
 parser = argparse.ArgumentParser()
@@ -88,6 +89,7 @@ def write_config():
         textconv = {cmd} -dt
 """)
 
+
 def trust_enable():
     #validate_script()
 
@@ -131,7 +133,9 @@ def trust_test():
         if result.stderr: print(f"Error: {result.stderr.decode('utf-8')}")
 
 
-
-if args.test:      trust_test()
-elif args.disable: trust_disable()
-else:              trust_enable()
+if args.test:
+    trust_test()
+elif args.disable:
+    trust_disable()
+else:
+    trust_enable()
