@@ -1,2 +1,2 @@
-docs/*.ipynb filter=ipynb-docs
 *.ipynb filter=ipynb-code
+docs/*.ipynb filter=ipynb-docs
