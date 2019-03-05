@@ -12,6 +12,8 @@ by running, from repo root,
 tools/run-after-git-clone
 ```
 
+This will strip notebook everywhere except under outputs/.
+
 ## Licence
 
 This repository incorporates code from [fastai](https://github.com/fastai/fastai) -

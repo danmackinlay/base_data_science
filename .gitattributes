@@ -1,2 +1,3 @@
 *.ipynb filter=ipynb-code
 docs/*.ipynb filter=ipynb-docs
+output/*.ipynb -filter=
