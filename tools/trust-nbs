@@ -14,7 +14,7 @@ if (cur_dir == "tools"): os.chdir("..")
 # output familiar, yet telling the user that his system is busy
 # running the script.
 # We know we run under git when this script is invoked as
-# .git/hooks/post-merge. When it is invoked as tools/trust-doc-nbs we
+# .git/hooks/post-merge. When it is invoked as tools/trust-nbs we
 # can be more verbose.
 stealth = True if "post-merge" in __file__ else False
 end = "\r" if stealth else "\n"
@@ -41,7 +41,7 @@ def trust_nbs(dirname):
 
     fname_last_checked.touch(exist_ok=True)
 
-trust_nbs('docs')
+trust_nbs('.')
 
 # clear the temporary output
 if stealth: sys.stdout.write("\033[K")
