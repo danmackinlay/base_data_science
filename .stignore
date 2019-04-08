@@ -1,0 +1,45 @@
+.git/
+$RECYCLE.BIN
+System Volume Information
+$WINDOWS.~BT
+pagefile.sys
+desktop.ini
+//From OS X
+(?d)Icon?
+.Spotlight-V100
+.Trashes
+.apdisk
+.TemporaryItems
+.DS_Store
+.fseventsd
+//From Linux
+lost+found
+.gvfs
+.local/share/trash
+.Trash-*
+(?d)._*
+*.part
+*.tmp
+*.swp
+*.crdownload
+.gitignore
+*.synctex.gz
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+.*.lb
+*.dvi
+*.xdv
+*.tmp
+*-converted-to.*
+.ipynb_checkpoints/
+.dropbox
+*.fdb_latexmk
