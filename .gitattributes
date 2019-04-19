@@ -1,0 +1,3 @@
+*.ipynb filter=nbstripout-code
+docs/*.ipynb filter=nbstripout-docs
+output/*.ipynb -filter=
