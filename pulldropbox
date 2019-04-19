@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+git commit --all -m "pre dropbox pull"
+rclone sync --exclude-from=".stignore" $* dropbox:WirelessSplitting/ ./
+git add -p
